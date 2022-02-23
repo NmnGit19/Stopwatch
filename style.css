@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    text-align: center;
+    height: 260px;
+    width: 940px;
+    margin: auto;
+    margin-top: 15%;
+}
+#heading{
+    text-align: center;
+}
+#heading p{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#hour{
+    font-size: 200px;
+    width: 220px;
+    height: 250px;
+    text-align: center;
+    font-family:fantasy;  
+    background-color: aliceblue;
+}
+#hour:hover{
+    color: white;
+    background-color: black;
+}
+#min{
+    font-size: 200px;
+    margin-left: 20px;
+    width: 220px;
+    height: 250px;
+    text-align: center;
+    font-family:fantasy;
+    background-color: aliceblue;
+}
+#min:hover{
+    color: white;
+    background-color: black;
+}
+#sec{
+    font-size: 200px;
+    margin-left: 20px;
+    width: 220px;
+    height: 250px;
+    text-align: center;
+    font-family:fantasy;
+    background-color: aliceblue;
+}
+#sec:hover{
+    color: white;
+    background-color: black;
+}
+#millisec{
+    font-size: 200px;
+    margin-left: 20px;
+    width: 220px;
+    height: 250px;
+    text-align: center;
+    font-family:fantasy;
+    background-color: aliceblue;
+}
+#millisec:hover{
+    color: white;
+    background-color: black;
+}
+.btn-div{
+    text-align: center;
+    margin-top: 3rem;
+}
+#btn{
+    background-color: aliceblue;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+@media(max-width: 450px){
+    body{
+        background-color: black;
+        width: 100%;
+    }
+    .container{
+        width: 390px;
+        height: auto;
+        margin-top: 50%;
+    }
+    #heading{
+        background-color: aliceblue;
+        text-align: center;
+    }
+    #heading p{
+        color: black;
+        font-size: xx-large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #hour{
+        font-size: 70px;
+        margin-left: 5px;
+        width: 90px;
+        height: 70px;
+        text-align: center;
+        font-family: fantasy; 
+        background-color: aliceblue;
+    }
+    #min{
+        font-size: 70px;
+        margin-left: 5px;
+        width: 90px;
+        height: 70px;
+        text-align: center;
+        font-family: fantasy; 
+        background-color: aliceblue;
+    }
+    #sec{
+        font-size: 70px;
+        margin-left: 5px;
+        width: 90px;
+        height: 70px;
+        text-align: center;
+        font-family: fantasy; 
+        background-color: aliceblue;
+    }
+    #millisec{
+        font-size: 70px;
+        margin-left: 5px;
+        width: 90px;
+        height: 70px;
+        text-align: center;
+        font-family: fantasy; 
+        background-color: aliceblue;
+    }
+
+}
